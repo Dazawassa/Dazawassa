@@ -1,0 +1,32 @@
+#id_link{
+    color: white;
+    font-size: 72px;
+    text-decoration: underline;
+    margin: 0;
+    display: inline-block;
+    margin: 10;
+}
+
+#id_welcome{
+    text-align: center;
+    font-size: 144px;
+    margin: 0;
+    width: 100%;
+    background-color: brown;
+    animation-name: welcome_anim;
+    animation-duration: 4s;
+}
+
+#id_width{
+    margin: 20;
+}
+
+#id_games{
+    animation-name: fade;
+    animation-duration: 0.5s;
+}
+
+#id_portfolio_h2{
+    font-size: 48px;
+    margin: 0;
+}

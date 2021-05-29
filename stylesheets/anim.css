@@ -1,0 +1,10 @@
+@keyframes welcome_anim {
+    0% {width: 0%; color: rgba(255, 255, 255, 0);}
+    50% {width: 100%; color: rgba(255, 255, 255, 0);}
+    100% {width: 100%; color: rgba(255, 255, 255, 1);}
+}
+
+@keyframes fade {
+    from {opacity: 0%;}
+    to {opacity: 100%;}
+}
