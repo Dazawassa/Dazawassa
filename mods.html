@@ -1,41 +1,43 @@
 <!DOCTYPE html5.2>
 <html lang="en">
 
-    <style>
+    <style> 
+    /*Due to these stylings and animations only being needed in this page I have not put them in a CSS document as they do not need to be loaded*/
         img{
-            margin: 64;
-            transition: 1s;
+            margin: 64; /*This margin could potentially break the site on akward resolutions*/
+            transition: 1s; /*This sets the time for the animation to transition*/
         }
 
         img:hover{
-            box-shadow: 12px 12px 4px rgb(15, 15, 15);
+            box-shadow: 12px 12px 4px rgb(15, 15, 15); /*These set the shadows and things like that for the animations*/
             -webkit-box-shadow: 12px 12px 4px rgb(15, 15, 15);
             -moz-box-shadow: 12px 12px 4px rgb(15, 15, 15);
-            height: 522px;
+            height: 522px; /*These define the size of every image on the site, DVD boxes are all the same aspect ratio so it shouldn't cause issues*/
             width: 368px;
         }
     </style>
 
     <head>
-        <title>Homepage</title>
-        <link rel="stylesheet" href="stylesheets/styles.css">
+        <title>Homepage</title> <!--This sets the title for the page-->
+        <link rel="stylesheet" href="stylesheets/styles.css"> <!--These are linking all of the style sheets, there are a large amount but that is to keep them organised-->
         <link rel="stylesheet" href="stylesheets/anim.css">
         <link rel="stylesheet" href="stylesheets/id.css">
         <link rel="stylesheet" href="stylesheets/class.css">
-        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <link rel="shortcut icon" type="image/png" href="images/favicon.png"/> <!--This is setting the favicon-->
+        <meta name="viewport" content="width=device-width,initial-scale=1.0"> <!--This is here to optimise performance on mobile devices-->
     </head>
 
     <body>
-        <nav>
+        <nav> <!--This nav tag contains all of the links to each part of the page, all styling is fone on this tag-->
            <a href="mods.html" style="text-decoration: none;"><h1 id="id_link">Mods</h1></a>
            <a href="portfolio.html" style="text-decoration: none;"><h1 id="id_link">Portfolio</h1></a>
            <a href="index.html" style="text-decoration: none;"><h1 id="id_link">Home</h1></a>
-           <a href="mailto:jackmcbeth28469@gmail.com" style="text-decoration: none;"><h1 id="id_link">Contact</h1></a>
+           <a href="mailto:jackmcbeth28469@gmail.com" style="text-decoration: none;"><h1 id="id_link">Contact</h1></a> <!--THis tag is set so once it is clicked it will open the default email app-->
            <a href="social.html" style="text-decoration: none;"><h1 id="id_link">social</h1></a>
         </nav>
 
-        <header id="id_games" style="text-align: left;">
-            <a href="mods/gtasa.html"><img src="images/GTASA.jpg" alt="Grand Theft Auto San Andreas" title="Grand Theft Auto San Andreas" height="474px" width="334px"/></a>
+        <header id="id_games" style="text-align: left;"> <!--This is aligning all of the images to the left-->
+            <a href="mods/gtasa.html"><img src="images/GTASA.jpg" alt="Grand Theft Auto San Andreas" title="Grand Theft Auto San Andreas" height="474px" width="334px"/></a> <!--Every image on this page has very little to it, simply a link with a lot of the work being done in the css for some reason setting the width and height in the styling breaks the website-->
             <a href="mods/halo.html"><img src="images/halo.webp" alt="Halo Combat Evolved" title="Halo Combat Evolved" height="474px" width="334px"/></a>
             <a href="mods/oni.html"><img src="images/Oni.jpg" alt="Oni" title="Oni" height="474px" width="334px"/></a>
             <a href="mods/transformers.html"><img src="images/Transformers.jpg" alt="Transformers the game" title="Transformers the game" height="474px" width="334px"/></a>

@@ -1,27 +1,27 @@
-#id_link{
+#id_link{ /*This is an id styling used for links in the navigation bar and only there*/
     color: white;
     font-size: 72px;
     text-decoration: underline;
     margin: 0;
-    display: inline-block;
-    margin: 10;
+    display: inline-block; /*This is done to space out the text so the underlines don't look like one big line*/
+    margin: 10; /*Also gives more spacing between the words*/
 }
 
-#id_welcome{
+#id_welcome{ /*This is the banner at the top of the site, everything except the animation and text is done here*/
     text-align: center;
     font-size: 144px;
     margin: 0;
     width: 100%;
     background-color: brown;
-    animation-name: welcome_anim;
-    animation-duration: 4s;
+    animation-name: welcome_anim; /*Animation name*/
+    animation-duration: 4s; /*Animation length*/
 }
 
-#id_width{
+#id_width{ /*This is the text in the body, margin is only there so the text doesn't touch the corners of the stream*/
     margin: 20;
 }
 
-#id_games{
+#id_games{ /*This styling is used for the mods page*/
     animation-name: fade;
     animation-duration: 0.5s;
 }

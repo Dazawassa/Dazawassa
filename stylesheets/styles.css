@@ -1,9 +1,9 @@
 body{
     background-color: rgb(25, 25, 25);
-    font-family: Helvetica, sans-serif;
+    font-family: Helvetica, sans-serif; /*Sets font for the site*/
 }
 
-nav{
+nav{ /*Everything on the navigation bars on the top is done here*/
     background-color: black;
     font-weight: bold;
     width: 100%;
@@ -13,7 +13,7 @@ nav{
     left: 0;
     top: 0;
 }
-h2, h3, h4, h5, h6, p{
+h2, h3, h4, h5, h6, p{ /*Test styling*/
     color: white;
 }
 
@@ -25,7 +25,7 @@ iframe{
     margin: 0;
 }
 
-header{
+header{ /*Styling used for the body*/
     position: absolute;
     top: 10%;
     left: 0;
