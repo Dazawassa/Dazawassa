@@ -1,7 +1,32 @@
-.class_mods_head{
-    top: 0;
+.class_images{
+    position: absolute;
+    top: 7%;
     left: 0;
     width: 100%;
-    height: 10%;
-    background-color: brown;
+    height: 100%;
+    z-index: -1;
+}
+
+.fadein img {
+    position:fixed;
+    top:0%;
+    -webkit-animation-name: fade;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-duration: 6s;
+    animation-name: fade;
+    animation-iteration-count: infinite;
+    animation-duration: 6s;
+    width: 100%;
+    height: auto;
+    z-index: -1;
+}
+
+.class_body{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: white;
+    text-align: center;
 }

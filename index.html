@@ -1,6 +1,6 @@
-<!DOCTYPE html5.2>
-<!--Please close inspect element thank you!-->
+<!DOCTYPE html>
 <html lang="en">
+<!--Please close inspect element-->
     <head>
         <title>Homepage</title> <!--This sets the title for the page-->
         <link rel="stylesheet" href="stylesheets/styles.css"> <!--These are linking all of the style sheets, there are a large amount but that is to keep them organised-->
@@ -12,37 +12,32 @@
     </head>
 
     <body>
-        <nav> <!--This nav tag contains all of the links to each part of the page, all styling is fone on this tag-->
-           <a href="mods.html" style="text-decoration: none;"><h1 id="id_link">Mods</h1></a>
-           <a href="portfolio.html" style="text-decoration: none;"><h1 id="id_link">Portfolio</h1></a>
-           <a href="index.html" style="text-decoration: none;"><h1 id="id_link">Home</h1></a>
-           <a href="mailto:jackmcbeth28469@gmail.com" style="text-decoration: none;"><h1 id="id_link">Contact</h1></a> <!--THis tag is set so once it is clicked it will open the default email app-->
-           <a href="social.html" style="text-decoration: none;"><h1 id="id_link">social</h1></a>
-        </nav>
-
-        <header>
-            <h1 id="id_welcome" style="color: white;">Welcome</h1> <!--This is the red banner that is animated, everything with that is done in the CSS style sheet-->
-            <br/> <!--Everything following this break is just text with styling on-->
-            <p id="id_width">I am Jacqueline, I also sometimes go by my unofficial middle name Zoey. I am a female software developer who has loved software development for a very long time!</p>
-            <p id="id_width">My love for software development traces all the way back to around 2010, this was when I first installed the Halo Custom Edition Development Kit for my copy of Halo custom edition and
-                began to play with the software, slowly I learned how to edit levels, build levels, spawn character and weapons; eventually I began to learn how to script events, with that being the events
-                that sparked my long lasting interest for computer programming.
-            </p>
-            <p id="id_width">Eventually this leads onto me replaying Pokemon Red around 2014, at this time I was still doing all the stuff with Halo but I had withdrawn a large amount, at that point I was only running servers
-                and wasn't really doing the modding side, this was mostly due to the restrictive nature of modifying Halo as it was first designed for the Original XBox and designed to not be modded.
-                As I was replaying Pokemon Red I remember reading about it online and finding out about the focus energy glitch, simply put focus energy is glitches as it increases your chance of a critical hit to a value
-                higher than what 8-bit containers can go to and thus counts backwards to the lowest number, meaning you wont ever hit a critical.</p>
-
-                <p id="id_width">I then found the Mew glitch, to this day I feel that this is one of the most interesting and amazing technical exploits ever, it is very long to explain, due to the original gameboy having such small memory the developers would use the same container to hold different values at different given times,
-                an example that is relevant to this glitch is that the container for the special stat of the opposing pokemon is the same container that is used to store random encounter data, by exploiting a glitch that forces the game
-                into constantly thinking it is in the battle mode in order to block the game from changing the data in that container, and then forcing a random encounter will use the special stat as the id for what pokemon you will encounter.
-            </p>
-            <p id="id_width">The complexity, depth and planning involved with that was what got me interested in computers outside of just gaming, I picked up C++ as a hobby along with C and Java, I also began to study the behind the scene aspects of software and hardware.</p>
-            <p id="id_width">I learned a lot about how the Windows operating system worked, I also learned a large amount of technical aspects behind video games, but primarily I became very interested on the software side of smaller scale electronics, things like security cameras and card readers, I also became interested in systems used for commerce, such as banking systems or ordering systems in shops.</p>
-            <p id="id_width">And all of those events lead up to where I am now, I am attending college in order to eventually begin working with computers in the near future, I generally enjoy lower level languages, although I do have skills with others, specifics about this can be seen on my <a href="portfolio.html">Portfolio page</a> I also stil develop mods for video games, which can be found on this website but I don't tend to do that as much as I use to.</p>
-            <p id="id_width">You can also find other projects I have done, such as work I have done for college, uni, and also personal projects, primarily software I have developed, along with it all being open source when possible as I am a massive freak for things being open source.</p>
-            <p id="id_width">I do hope you enjoyed reading this, if so please explore around the website using the navigation bar above, as I am sure you will find things that you will enjoy if you liked the above!</p>
-            <br/>
-            <h6 style="bottom: -250%; text-align: left;">Site developed by Jacqueline McBeth - Developed using Waterfox on a 1920X1080 monitor - 2021</h6> <!--Styling is all done in CSS except for its position and alignment-->
+        <header> <!--This is the blue banner at the top of the site, everything is done in the style sheet-->
+            <h1 style="text-decoration: underline;">Jacqueline McBeth</h1> <!--Text on the banner-->
+            <a href="https://www.youtube.com/channel/UCieMWxvUEWdUYHyY78Yg-RQ"><img src="images/social/youtube.png" id="id_social" style="right: 3%;" width="36px" height="25px"/></a> <!--Social medua links in the banner-->
+            <a href="https://github.com/ToothpasteHair"><img src="images/social/github.png" id="id_social" style="right: 5%;" width="25px" height="25px"/></a> 
+            <a href="mailto:jackmcbeth28469@gmail.com"><img src="images/social/mail.png" id="id_social" width="35px" height="25px"/></a> <!--When you click this it opens the default email app-->
         </header>
+    
+    <div class="class_images"> <!--Background changing images, big load of code, don't understand it, will write myself soon-->
+        <div class="fadein">
+            <img id="f3" src="images/backgrounds/postal2.jpg">
+            <img id="f2" src="images/backgrounds/halo3.jpg">
+            <img id="f1" src="images/backgrounds/oni3.jpg">
+        </div>
+        <div class="class_body"> <!--Main part with all the text-->
+            <h1>Welcome to the site!</h1> <!--Header followed by words-->
+            <p>This site is a glorified CV, on here you can find all of my personal projects that I have developed under the portfolio tab, or more specifically mods I have made for video games under the mods tab.<br>
+            I would normally have that in the portfolio section but I know certain people will only be here for the mods so there we go. But if you are here for other reasons then that portfolio tab is probably where you want to look.<br>
+            Any software I develop I make open source whenever possible so anything in that tab will also have links to the github so you can view the source code of the software, if you are interested in other things about me, check the about me tab.<br>
+            This will just list relavent information about me, places I have worked, it is mostly a glorified CV that you can look at, there will also be an email address in the top bar if you want to contact me along with links to other relavent social media pages if anything here interests you. Thanks for reading!</p>
+            <a href="subpage/downloads.html" style="color: black; text-decoration: none;"><h2 id="id_links">Projects</h2></a> <!--Blocks used for the links, most is done in the style sheet-->
+            <a href="subpage/portfolio.html" style="color: black; text-decoration: none;"><h2 id="id_links">Portfolio</h2></a>
+            <a href="subpage/me.html" style="color: black; text-decoration: none;"><h2 id="id_links">About Me</h2></a>
+            <br/>
+            <h6>Website design done by <a href="https://linktr.ee/Foxsila" style="color: black;">Isabel Heinze</a></h6> <!--Credit to Isabel, please follow her, her art is amazing.-->
+            <h6 style="text-decoration: underline;">Jacqueline Mcbeth - 2021</h6>
+        </div>
+    </div>
+    </body>
 </html>

@@ -1,10 +1,14 @@
-@keyframes welcome_anim { /*Animation for the welcome bar*/
-    0% {width: 0%; color: rgba(255, 255, 255, 0);}
-    50% {width: 100%; color: rgba(255, 255, 255, 0);}
-    100% {width: 100%; color: rgba(255, 255, 255, 1);} /*Opacity isn't set until the end so the text shows after the bar comes in*/
+@-webkit-keyframes fade {
+    0% {opacity: 0;}
+    20% {opacity: 1;}
+    33% {opacity: 1;}
+    53% {opacity: 0;}
+    100% {opacity: 0;}
 }
-
-@keyframes fade { /*Fade animation on the mods page*/
-    from {opacity: 0%;}
-    to {opacity: 100%;}
+@keyframes fade {
+    0% {opacity: 0;}
+    20% {opacity: 1;}
+    33% {opacity: 1;}
+    53% {opacity: 0;}
+    100% {opacity: 0;}
 }

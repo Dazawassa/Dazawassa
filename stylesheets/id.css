@@ -1,32 +1,43 @@
-#id_link{ /*This is an id styling used for links in the navigation bar and only there*/
-    color: white;
-    font-size: 72px;
-    text-decoration: underline;
-    margin: 0;
-    display: inline-block; /*This is done to space out the text so the underlines don't look like one big line*/
-    margin: 10; /*Also gives more spacing between the words*/
-}
-
-#id_welcome{ /*This is the banner at the top of the site, everything except the animation and text is done here*/
-    text-align: center;
-    font-size: 144px;
-    margin: 0;
+#id_crossfade1{
     width: 100%;
-    background-color: brown;
-    animation-name: welcome_anim; /*Animation name*/
-    animation-duration: 4s; /*Animation length*/
-}
-
-#id_width{ /*This is the text in the body, margin is only there so the text doesn't touch the corners of the stream*/
-    margin: 20;
-}
-
-#id_games{ /*This styling is used for the mods page*/
-    animation-name: fade;
-    animation-duration: 0.5s;
-}
-
-#id_portfolio_h2{
-    font-size: 48px;
+    height: auto;
     margin: 0;
+    opacity: 0;
+    animation-name: transition1;
+    animation-delay: 4s;
+    animation-duration: 6s;
+}
+
+
+#f1 {
+    background-color: white;
+    z-index: -1;
+}
+#f2 {
+    -webkit-animation-delay: -4s;
+    background-color: white;
+    z-index: -1;
+}
+#f3 {
+    -webkit-animation-delay: -2s;
+    background-color: white;
+    z-index: -1;
+}
+
+#id_links{
+    margin: 2%;
+    border: thick solid rgb(48, 186, 250);
+    background-color: rgb(48, 186, 250);
+    width: 500px;
+    height: 500px;
+    line-height: 500px;
+    font-size: 100px;
+    display: inline-block;
+}
+
+#id_social{
+    position: fixed;
+    z-index: 1;
+    top: 1%;
+    right: 1%;
 }
