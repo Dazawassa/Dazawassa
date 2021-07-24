@@ -24,6 +24,14 @@ p{
     font-size: 18px;
 }
 
+p, h1, h2, h3, h4, h5, h6{
+    color: rgb(70, 70, 70);
+}
+
 li{
     margin: 1%;
+}
+
+ul{
+    list-style-type: none;
 }

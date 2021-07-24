@@ -12,16 +12,25 @@
 #f1 {
     background-color: white;
     z-index: -1;
+    width: 125%;
+    height: 100%;
+    left: -12.5%;
 }
 #f2 {
     -webkit-animation-delay: -4s;
     background-color: white;
     z-index: -1;
+    width: 125%;
+    height: 100%;
+    left: -12.5%;
 }
 #f3 {
     -webkit-animation-delay: -2s;
     background-color: white;
     z-index: -1;
+    width: 125%;
+    height: 100%;
+    left: -12.5%;
 }
 
 #id_links{
