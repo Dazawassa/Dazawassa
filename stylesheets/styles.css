@@ -20,8 +20,8 @@ h1{
 }
 
 p{
-    margin: 10;
-    font-size: 18px;
+    margin: 15px;
+    font-size: 24px;
 }
 
 p, h1, h2, h3, h4, h5, h6{
@@ -30,6 +30,8 @@ p, h1, h2, h3, h4, h5, h6{
 
 li{
     margin: 1%;
+    font-weight: bold;
+    font-size: 18px;
 }
 
 ul{

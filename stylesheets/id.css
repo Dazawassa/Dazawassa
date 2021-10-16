@@ -1,42 +1,7 @@
-#id_crossfade1{
-    width: 100%;
-    height: auto;
-    margin: 0;
-    opacity: 0;
-    animation-name: transition1;
-    animation-delay: 4s;
-    animation-duration: 6s;
-}
-
-
-#f1 {
-    background-color: white;
-    z-index: -1;
-    width: 125%;
-    height: 100%;
-    left: -12.5%;
-}
-#f2 {
-    -webkit-animation-delay: -4s;
-    background-color: white;
-    z-index: -1;
-    width: 125%;
-    height: 100%;
-    left: -12.5%;
-}
-#f3 {
-    -webkit-animation-delay: -2s;
-    background-color: white;
-    z-index: -1;
-    width: 125%;
-    height: 100%;
-    left: -12.5%;
-}
-
 #id_links{
     margin: 2%;
-    border: thick solid rgb(48, 186, 250);
-    background-color: rgb(48, 186, 250);
+    border: thick solid rgb(40, 157, 211);
+    background-color: rgb(40, 157, 211);
     width: 500px;
     height: 500px;
     line-height: 500px;

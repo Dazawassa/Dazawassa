@@ -7,20 +7,6 @@
     z-index: -1;
 }
 
-.fadein img {
-    position:fixed;
-    top:0%;
-    -webkit-animation-name: fade;
-    -webkit-animation-iteration-count: infinite;
-    -webkit-animation-duration: 6s;
-    animation-name: fade;
-    animation-iteration-count: infinite;
-    animation-duration: 6s;
-    width: 100%;
-    height: auto;
-    z-index: -1;
-}
-
 .class_body{
     width: 100%;
     height: 120%;
@@ -29,4 +15,10 @@
     left: 0;
     background-color: white;
     text-align: center;
+}
+
+/*No clue how but in previous versions I broke the background image so now here is one that works, all it does is set the position to fixed and be at the top of the site.*/
+.class_background{
+    position: fixed;
+    top: 0%;
 }
