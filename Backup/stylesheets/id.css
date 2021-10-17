@@ -1,0 +1,17 @@
+#id_links{
+    margin: 2%;
+    border: thick solid rgb(40, 157, 211);
+    background-color: rgb(40, 157, 211);
+    width: 500px;
+    height: 500px;
+    line-height: 500px;
+    font-size: 100px;
+    display: inline-block;
+}
+
+#id_social{
+    position: fixed;
+    z-index: 1;
+    top: 1%;
+    right: 1%;
+}
