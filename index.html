@@ -1,51 +1,112 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-gb">
 <!--Please close inspect element-->
     <head>
-        <title>Jacqueline McBeth</title> <!--This sets the title for the page-->
-        <link rel="stylesheet" href="stylesheets/styles.css"> <!--These are linking all of the style sheets, there are a large amount but that is to keep them organised-->
+        <title>Dazawassa</title> <!--This sets the title for the page-->
+        <link rel="stylesheet" href="stylesheets/style.css"> <!--These are linking all of the style sheets, there are a large amount but that is to keep them organised-->
         <link rel="stylesheet" href="stylesheets/anim.css">
-        <link rel="stylesheet" href="stylesheets/id.css">
-        <link rel="stylesheet" href="stylesheets/class.css">
         <link rel="shortcut icon" type="image/png" href="images/favicon.png"/> <!--This is setting the favicon-->
     </head>
 
-    <style>
-        
-
-        @media screen and (min-aspect-ratio: 16/9) {
-            body{
-                background: url("images/backgrounds/background.jpg") no-repeat fixed top left;
-                background-size: 100%; 
-            }
-        }
-
-        @media screen and (max-aspect-ratio: 9/16){
-            body{
-                background: url("images/backgrounds/background2.jpg") no-repeat fixed top left;
-                background-size: 100%; 
-            }
-        }
-            
-    </style>
-
     <body>
-        <header> <!--This is the blue banner at the top of the site, everything is done in the style sheet-->
-            <h1 style="text-decoration: underline; color: black;">Jacqueline McBeth</h1> <!--Text on the banner-->
-        </header>
-        <div class="class_body"> <!--Main part with all the text-->
-            <h1 style="color: #038ECE;">Welcome to the site!</h1> <!--Header followed by words-->
-            <p>This site is a glorified CV, on here you can find all of my personal projects that I have developed under the portfolio tab, or more specifically mods I have made for video games under the mods tab.</p>
-            <p>I would normally have that in the portfolio section but I know certain people will only be here for the mods so there we go. But if you are here for other reasons then that portfolio tab is probably where you want to look.</p>
-            <p>Any software I develop I make open source whenever possible so anything in that tab will also have links to the github so you can view the source code of the software, if you are interested in other things about me, check the about me tab.</p>
-            <p>This will just list relavent information about me, places I have worked, it is mostly a glorified CV that you can look at, there will also be an email address in the top bar if you want to contact me along with links to other relavent social media pages if anything here interests you. Thanks for reading!</p>
-            <a href="subpage/projects.html" style="color: black; text-decoration: none;"><h2 id="id_links" style="color: black;">projects</h2></a>
-            <a href="subpage/me.html" style="color: black; text-decoration: none;"><h2 id="id_links" style="color: black;">About Me</h2></a>
-            <a href="subpage/social.html" style="color: black; text-decoration: none;"><h2 id="id_links" style="color: black;">Social</h2></a>
-            <br/>
-            <h6>Website design done by <a href="https://linktr.ee/Foxsila" style="color: black;">Isabel Heinze</a></h6> <!--Credit to Isabel, please follow her, her art is amazing.-->
-            <h6 style="text-decoration: underline;">Jacqueline Mcbeth - 2021</h6>
+        <h1>Dazawassa</h1>
+        <div class="class_main">
+            <div class="class_mainleft">
+                <div style="text-align: center;">
+                    <h2>Socials and Contacts:</h2>
+                    <br/>
+                </div>
+                <div class="class_test">
+                    <img style="margin-right: 8px;" src="icons/paper.png" width="24px" height="32px">
+                    <p id="id_link"><a href="CV/CV.pdf">CV</p></a>
+                </div>
+                <br/>
+                <div class="class_test">
+                    <img style="margin-right: 8px;" src="icons/Youtube.png" width="45px" height="32px">
+                    <p id="id_link"><a href="https://www.youtube.com/@dazawassa4927">Youtube</p></a>
+                </div>
+                <br/>
+                <div class="class_test">
+                    <img style="margin-right: 8px;" src="icons/Mail.png" width="32px" height="32px">
+                    <p id="id_link"><a href="mailto:darcymcbeth@yahoo.com">E-Mail</p></a>
+                </div>
+                <br/>
+                <div class="class_test">
+                    <img style="margin-right: 8px;" src="icons/Mastodon.png" width="32px" height="32px">
+                    <p id="id_link"><a href="https://ruby.social/@dazawassa">Mastodon</p></a>
+                </div>
+                <br/>
+                <div class="class_test">
+                    <img style="margin-right: 8px;" src="icons/Github.png" width="32px" height="32px">
+                    <p id="id_link"><a href="https://github.com/Dazawassa">Github</p></a>
+                </div>
+                <br/>
+                <div class="class_test">
+                    <img style="margin-right: 8px;" src="icons/Linkedin.png" width="32px" height="32px">
+                    <p id="id_link"><a href="https://www.linkedin.com/in/darcy-mcbeth-43859419a/">LinkedIn</p></a>
+                </div>
+                <br/>
+                <div class="class_test">
+                    <img style="margin-right: 8px;" src="icons/Tumblr.png" width="32px" height="32px">
+                    <p id="id_link"><a href="https://www.tumblr.com/dazawassa">Tumblr</p></a>
+                </div>
+            </div>
+            <div class="class_mainright">
+                <div>
+                    <h2 style="text-align: center;">Modding and Hacking:</h2>
+                    <br/>
+                </div>
+                <div class="class_test">
+                    <img style="margin-right: 8px;" src="icons/DukeForever_128.ico" width="32px" height="32px">
+                    <p id="id_link"><a href="https://www.moddb.com/mods/dnf2001-restoration-project">Duke Nukem: Forever</a></p>
+                </div>
+
+                <div class="class_test">
+                    <img style="margin-right: 8px;" src="icons/hl2_101.ico" width="32px" height="32px">
+                    <p id="id_link"><a href="https://steamcommunity.com/id/Dookienookie/myworkshopfiles/?appid=4000&sort=score&browsefilter=myfiles&view=imagewall">Garrys Mod</a></p>
+                </div>
+
+                <div class="class_test">
+                    <img style="margin-right: 8px;" src="icons/hl_101.ico" width="32px" height="32px">
+                    <p id="id_link">Half-Life</p>
+                </div>
+
+                <div class="class_test">
+                    <img style="margin-right: 8px;" src="icons/hl2_1_101.ico" width="32px" height="32px">
+                    <p id="id_link">Half-Life²</p>
+                </div>
+
+                <div class="class_test">
+                    <img style="margin-right: 8px;" src="icons/haloded_102.ico" width="32px" height="32px">
+                    <p id="id_link">Halo: Combat Evolved</p>
+                </div>
+
+                <div class="class_test">
+                    <img style="margin-right: 8px;" src="icons/HaloInfinite_105.ico" width="32px" height="32px">
+                    <p id="id_link">Halo Infinite</p>
+                </div>
+
+                <div class="class_test">
+                    <img style="margin-right: 8px;" src="icons/left4dead2.ico" width="32px" height="32px">
+                    <p id="id_link"><a href="https://steamcommunity.com/id/Dookienookie/myworkshopfiles/?appid=550&sort=score&browsefilter=myfiles&view=imagewall">Left 4 Dead 2</a></p>
+                </div>
+
+                <div class="class_test">
+                    <img style="margin-right: 8px;" src="icons/Postal2_128.ico" width="32px" height="32px">
+                    <p id="id_link"><a href="https://steamcommunity.com/id/Dookienookie/myworkshopfiles/?appid=223470&sort=score&browsefilter=myfiles&view=imagewall">Postal 2</a></p>
+                </div>
+
+                <div class="class_test">
+                    <img style="margin-right: 8px;" src="icons/SouthPark_110.ico" width="32px" height="32px">
+                    <p id="id_link">South Park</p>
+                </div>
+
+                <div class="class_test">
+                    <img style="margin-right: 8px;" src="icons/sprally2_APPICON.ico" width="32px" height="32px">
+                    <p id="id_link"><a href="https://www.youtube.com/playlist?list=PLG2V91_c41ZFPkyfSX2nv30uH4kkkGpon">South Park: Rally</a></p>
+                </div>
+                <!--Put a thied collum for software development.-->
+            </div>
         </div>
-    </div>
     </body>
 </html>

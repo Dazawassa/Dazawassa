@@ -1,0 +1,68 @@
+@font-face{
+    font-family: ps2p;
+    src: url(../fonts/PressStart2P-Regular.ttf);
+}
+
+body{
+    font-family: ps2p;
+    text-align: center;
+    background-image: url(../background/halo.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: rgb(40, 40, 40);
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+#id_link:hover{
+    text-shadow: 0 0 4px #ff000000, 0 0 6px white;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+p, h1, h2, h3, h4, h5, h6{
+    color: white;
+}
+
+hr{
+    border: thick solid black;
+}
+
+.class_main{
+    width: 875px;
+    margin: 0px;
+    padding: 0px;
+    margin: auto;
+}
+
+.class_mainleft{
+    width: 400px;
+    float: left;
+    border: 10px solid;
+    background-color: #000c208b;
+    border-radius: 20px;
+    border-image: url(../Assets/Borders/Border2.png) 7 round;
+    text-align: left;
+}
+
+.class_mainright{
+    width: 400px;
+    float: right;
+    border: 10px solid;
+    background-color: #000c208b;
+    border-radius: 20px;
+    border-image: url(../Assets/Borders/Border2.png) 7 round;
+    text-align: left;
+}
+
+.class_test{
+    margin: 8px;
+    display: inline-flex;
+}
