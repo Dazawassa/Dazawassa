@@ -11,6 +11,7 @@ body{
     background-attachment: fixed;
     background-size: cover;
     background-color: rgb(40, 40, 40);
+    cursor: url("/icons/Cursor.png"), auto;
 }
 
 a{
