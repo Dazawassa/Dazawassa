@@ -21,31 +21,31 @@
 
     <body>
         <div class="headingBar">
-            <img id="languageSelect" src="images/icons/english.png" alt="English" title="English"/>
-            <img id="languageSelect" src="images/icons/cornish.png" alt="Cornish" title="Cornish"/>
-            <img id="languageSelect" src="images/icons/spanish.png" alt="Spanish" title="Spanish"/>
+            <script src="language.js"></script> <!--Add language select to the heading bar.-->
         </div>
         
         <div class="frontPage">
             <span id="myTime"></span>
             <script src="clock.js"></script> <!--This is a script to set my current time.-->
             <h1 style="text-align: center;">Dazawassa</h1>
+            <script src="language.js"></script> <!--Writes text into the main body.-->
             <div style="text-align: left;">
-                <p>I'm Darcy. Also known by my screen name <i>"Dazawassa"</i>. I enjoy software development and have done for a long time. While I am currently wrapped up with university. I do still love writting code and like to publish my projects. I'm a big fan of open source programs. Most of my software is open source. Feel free to fork any of my programs and edit them yourself or criticise my code. Heck I encourage you to do this!</p>
+                <p id="introductionLineOne"></p>
+                <p id="introductionLineTwo"></p>
             </div>
             <div style="text-align: center;">
-                <h2>Projects</h2>
-                <p style="text-align: left;">I have worked on many projects over time. With this list ever growing. Below you can find a lit of projects I have done software for. Both projects developed by myself. And developed with a team.</p>
+                <h2 id="projectsTitle"></h2>
+                <p id="projectsText"></p>
                 <div class="projectSelection">
-                    <h1><a href="personal.html">Personal Projects</a></h1>
+                    <h1><a id="personalProjects" href="personal.html"></a></h1>
                 </div>
                 <div class="projectSelection">
-                    <h1><a href="group.html">Group Projects</a></h1>
+                    <h1><a id="groupProjects" href="group.html"></a></h1>
                 </div>
             </div>
             <div style="text-align: center;">
-                <h1>Contact</h1>
-                <p style="text-align: left;">If you have a desire to contact me I would be happy to talk! Officially I am not very active on social media but I do have places where I will post. I also have an E-Mail for a more professional and direct conversation if needed.</p>
+                <h1 id="contactSection"></h1>
+                <p id="contactText"></p>
                 <div class="projectSelection">
                     <h1><a href="mailto:DarcyMcBeth@Yahoo.com">E-Mail</a></h1>
                 </div>

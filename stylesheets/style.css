@@ -3,6 +3,7 @@ body{
     margin:0;
     padding:0;
     background-color: #D7C6E6;
+    font-family: Verdana, sans-serif; /*Sets font.*/
 }
 
 a{
@@ -12,6 +13,7 @@ a{
 p{
     margin-left: 20px;
     margin-right: 20px;
+    font-size: 18px;
 }
 
 hr{
@@ -53,4 +55,8 @@ hr{
 
 #languageSelect{
     margin-left: 5px;
+}
+
+#projectsText, #contactText{
+    text-align: left;
 }
