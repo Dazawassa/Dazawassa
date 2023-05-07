@@ -1,69 +1,62 @@
-@font-face{
-    font-family: ps2p;
-    src: url(../fonts/PressStart2P-Regular.ttf);
-}
-
 body{
-    font-family: ps2p;
-    text-align: center;
-    background-image: url(../background/halo.jpg);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    background-color: rgb(40, 40, 40);
-    cursor: url("/icons/Cursor.png"), auto;
+    /*Removes spacing between divs and body.*/
+    margin:0;
+    padding:0;
+    background-color: #D7C6E6;
+    font-family: Verdana, sans-serif; /*Sets font.*/
 }
 
 a{
-    text-decoration: none;
-    color: white;
+    color: black;
 }
 
-#id_link:hover{
-    text-shadow: 0 0 4px #ff000000, 0 0 6px white;
-}
-
-a{
-    text-decoration: none;
-    color: white;
-}
-
-p, h1, h2, h3, h4, h5, h6{
-    color: white;
+p{
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 18px;
 }
 
 hr{
     border: thick solid black;
 }
 
-.class_main{
-    width: 875px;
-    margin: 0px;
-    padding: 0px;
+.frontPage{
+    width: 1024px;
     margin: auto;
+    border: thick solid black;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: right;
+    background-color: #B39DDB;
 }
 
-.class_mainleft{
-    width: 400px;
-    float: left;
-    border: 10px solid;
-    background-color: #000c208b;
-    border-radius: 20px;
-    border-image: url(../Assets/Borders/Border2.png) 7 round;
+.headingBar{
+    background-color: #DBA29D;
+    width: 100%;
+    margin: 0px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    border-bottom: thick solid black;
+}
+
+.projectSelection{
+    margin: auto;
+    margin: 15px;
+    border: thick solid black;
+    border-radius: 10px;
+}
+
+#myTime{
+    /*Align text to the right*/
+    text-align: right;
+    margin: 10px;
+    font-weight: bold;
+}
+
+#languageSelect{
+    margin-left: 5px;
+}
+
+#projectsText, #contactText{
     text-align: left;
-}
-
-.class_mainright{
-    width: 400px;
-    float: right;
-    border: 10px solid;
-    background-color: #000c208b;
-    border-radius: 20px;
-    border-image: url(../Assets/Borders/Border2.png) 7 round;
-    text-align: left;
-}
-
-.class_test{
-    margin: 8px;
-    display: inline-flex;
 }

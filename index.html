@@ -6,86 +6,54 @@
         <link rel="stylesheet" href="stylesheets/style.css"> <!--These are linking all of the style sheets, there are a large amount but that is to keep them organised-->
         <link rel="stylesheet" href="stylesheets/anim.css">
         <link rel="shortcut icon" type="image/png" href="images/favicon.png"/> <!--This is setting the favicon-->
+        <meta charset="UTF-8">
+        <!--Website description shown in search engines.-->
+        <meta name="description" content="">
+        <!--Keywords for search engine optimisation.-->
+        <meta name="keywords" content="Dazawassa, Homepage, Dazawassa Homepage, Dazawassa Website,">
+        <!--Author Name.-->
+        <meta name="author" content="Darcy McBeth">
+        <!--Optimisation for display on mobile devices.-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!--Search engine optimisation.-->
+        <meta name="robots" content="follow"/>
     </head>
 
     <body>
-        <h1>Dazawassa</h1>
-        <div class="class_main">
-            <div class="class_mainleft">
-                <div style="text-align: center;">
-                    <h2>Socials and Contacts:</h2>
-                    <br/>
-                </div>
-                <div class="class_test">
-                    <img style="margin-right: 8px;" src="icons/paper.png" width="24px" height="32px">
-                    <p id="id_link"><a href="CV/CV.pdf">CV</p></a>
-                </div>
-                <br/>
-                <div class="class_test">
-                    <img style="margin-right: 8px;" src="icons/Youtube.png" width="45px" height="32px">
-                    <p id="id_link"><a href="https://www.youtube.com/@dazawassa4927">Youtube</p></a>
-                </div>
-                <br/>
-                <div class="class_test">
-                    <img style="margin-right: 8px;" src="icons/Mail.png" width="32px" height="32px">
-                    <p id="id_link"><a href="mailto:darcymcbeth@yahoo.com">E-Mail</p></a>
-                </div>
-                <br/>
-                <div class="class_test">
-                    <img style="margin-right: 8px;" src="icons/Mastodon.png" width="32px" height="32px">
-                    <p id="id_link"><a href="https://ruby.social/@dazawassa">Mastodon</p></a>
-                </div>
-                <br/>
-                <div class="class_test">
-                    <img style="margin-right: 8px;" src="icons/Github.png" width="32px" height="32px">
-                    <p id="id_link"><a href="https://github.com/Dazawassa">Github</p></a>
-                </div>
-                <br/>
-                <div class="class_test">
-                    <img style="margin-right: 8px;" src="icons/Linkedin.png" width="32px" height="32px">
-                    <p id="id_link"><a href="https://www.linkedin.com/in/darcy-mcbeth-43859419a/">LinkedIn</p></a>
-                </div>
-                <br/>
-                <div class="class_test">
-                    <img style="margin-right: 8px;" src="icons/Tumblr.png" width="32px" height="32px">
-                    <p id="id_link"><a href="https://www.tumblr.com/dazawassa">Tumblr</p></a>
+        <div class="headingBar">
+            <script src="scripts/language.js"></script> <!--Add language select to the heading bar.-->
+            <script src="scripts/populateBar.js"></script> <!--Add language select to the heading bar.-->
+        </div>
+        
+        <div class="frontPage">
+            <span id="myTime"></span>
+            <script src="scripts/clock.js"></script> <!--This is a script to set my current time.-->
+            <h1 style="text-align: center;">Dazawassa</h1>
+            <script src="language.js"></script> <!--Writes text into the main body.-->
+            <div style="text-align: left;">
+                <p id="introductionLineOne"></p>
+                <p id="introductionLineTwo"></p>
+            </div>
+            <div style="text-align: center;">
+                <h2 id="projectsTitle"></h2>
+                <p id="projectsText"></p>
+                <div class="projectSelection">
+                    <h1><a id="groupProjects" href="projects.html"></a></h1>
                 </div>
             </div>
-            <div class="class_mainright">
+            <div style="text-align: center;">
+                <h1 id="contactSection"></h1>
+                <p id="contactText"></p>
+                <div class="projectSelection">
+                    <h1><a href="mailto:DarcyMcBeth@Yahoo.com">E-Mail</a></h1>
+                </div>
+                <div class="projectSelection">
+                    <h1><a href="https://linktr.ee/Dazawassa">Linktree</a></h1>
+                </div>
                 <div>
-                    <h2 style="text-align: center;">Modding and Hacking:</h2>
-                    <br/>
+                    <!--Mastodon.-->
+                    <a style="visibility: hidden;" rel="me" href="https://infosec.exchange/@Dazawassa">Mastodon</a>
                 </div>
-                <div class="class_test">
-                    <img style="margin-right: 8px;" src="icons/DukeForever_128.ico" width="32px" height="32px">
-                    <p id="id_link"><a href="https://www.moddb.com/mods/dnf2001-restoration-project">Duke Nukem: Forever</a></p>
-                </div>
-
-                <div class="class_test">
-                    <img style="margin-right: 8px;" src="icons/hl2_101.ico" width="32px" height="32px">
-                    <p id="id_link"><a href="https://steamcommunity.com/id/Dookienookie/myworkshopfiles/?appid=4000&sort=score&browsefilter=myfiles&view=imagewall">Garrys Mod</a></p>
-                </div>
-
-                <div class="class_test">
-                    <img style="margin-right: 8px;" src="icons/left4dead2.ico" width="32px" height="32px">
-                    <p id="id_link"><a href="https://steamcommunity.com/id/Dookienookie/myworkshopfiles/?appid=550&sort=score&browsefilter=myfiles&view=imagewall">Left 4 Dead 2</a></p>
-                </div>
-
-                <div class="class_test">
-                    <img style="margin-right: 8px;" src="icons/Postal2_128.ico" width="32px" height="32px">
-                    <p id="id_link"><a href="https://steamcommunity.com/id/Dookienookie/myworkshopfiles/?appid=223470&sort=score&browsefilter=myfiles&view=imagewall">Postal 2</a></p>
-                </div>
-
-                <div class="class_test">
-                    <img style="margin-right: 8px;" src="icons/Saikano.png" width="32px" height="32px">
-                    <p id="id_link"><a href="https://www.youtube.com/playlist?list=PLG2V91_c41ZFY5m-kSL3ocdOgi0Wk_NMd">Saishuu Heiki Kanojo</a></p>
-                </div>
-
-                <div class="class_test">
-                    <img style="margin-right: 8px;" src="icons/sprally2_APPICON.ico" width="32px" height="32px">
-                    <p id="id_link"><a href="https://www.youtube.com/playlist?list=PLG2V91_c41ZFPkyfSX2nv30uH4kkkGpon">South Park: Rally</a></p>
-                </div>
-                <!--Put a third collum for software development.-->
             </div>
         </div>
     </body>
