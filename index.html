@@ -21,12 +21,13 @@
 
     <body>
         <div class="headingBar">
-            <script src="language.js"></script> <!--Add language select to the heading bar.-->
+            <script src="scripts/language.js"></script> <!--Add language select to the heading bar.-->
+            <script src="scripts/populateBar.js"></script> <!--Add language select to the heading bar.-->
         </div>
         
         <div class="frontPage">
             <span id="myTime"></span>
-            <script src="clock.js"></script> <!--This is a script to set my current time.-->
+            <script src="scripts/clock.js"></script> <!--This is a script to set my current time.-->
             <h1 style="text-align: center;">Dazawassa</h1>
             <script src="language.js"></script> <!--Writes text into the main body.-->
             <div style="text-align: left;">
@@ -37,10 +38,7 @@
                 <h2 id="projectsTitle"></h2>
                 <p id="projectsText"></p>
                 <div class="projectSelection">
-                    <h1><a id="personalProjects" href="personal.html"></a></h1>
-                </div>
-                <div class="projectSelection">
-                    <h1><a id="groupProjects" href="group.html"></a></h1>
+                    <h1><a id="groupProjects" href="projects.html"></a></h1>
                 </div>
             </div>
             <div style="text-align: center;">
@@ -51,6 +49,10 @@
                 </div>
                 <div class="projectSelection">
                     <h1><a href="https://linktr.ee/Dazawassa">Linktree</a></h1>
+                </div>
+                <div>
+                    <!--Mastodon.-->
+                    <a style="visibility: hidden;" rel="me" href="https://infosec.exchange/@Dazawassa">Mastodon</a>
                 </div>
             </div>
         </div>

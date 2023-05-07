@@ -21,21 +21,21 @@
 
     <body>
         <div class="headingBar">
-            <script src="language.js"></script> <!--Add language select to the heading bar.-->
+            <script src="scripts/languageProjects.js"></script> <!--Add language select to the heading bar.-->
+            <script src="scripts/populateBar.js"></script> <!--Add language select to the heading bar.-->
         </div>
         
         <div class="frontPage">
             <span id="myTime"></span> <!--This sets the element to print my current time to.-->
-            <script src="clock.js"></script> <!--This is a script to set my current time.-->
-            <h1 style="text-align: center;">Group Projects</h1>
+            <script src="scripts/clock.js"></script> <!--This is a script to set my current time.-->
+            <h1 id="groupProjectsTitle" style="text-align: center;"></h1>
             <div style="text-align: left;">
-                <p>Below you will see what projects I have done work for. I want to give credit to all the hard working individuals on these projects. I put a lot of effort into these. However I was not the only one. And multiple people, if not all achieved wonderful things during my time there.</p>
+                <p id="groupProjectsText"></p>
             </div>
             <div style="text-align: center;">
                 <a href="https://www.moddb.com/company/mighty-foot-productions" target="_blank"><img src="images/logos/might foot.png" height="400px"></a>
             </div>
             <br/>
-            <hr/>
         </div>
     </body>
 </html>
