@@ -1,0 +1,5 @@
+@keyframes navigationHover {
+    to {
+        background-color: purple;
+    }
+  }

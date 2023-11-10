@@ -1,62 +1,60 @@
+@font-face{
+    font-family: XBex;
+    src: url(../fonts/Xbex.ttf);
+}
+
 body{
     /*Removes spacing between divs and body.*/
     margin:0;
     padding:0;
-    background-color: #D7C6E6;
-    font-family: Verdana, sans-serif; /*Sets font.*/
+    background-color: black;
+    font-family: Verdana, sans-serif!important;
+    display: flex;
 }
 
 a{
-    color: black;
+    color: white;
 }
 
-p{
-    margin-left: 20px;
-    margin-right: 20px;
-    font-size: 18px;
+p, h1, h2, h3, h4, h5, h6{
+    color: white;
 }
 
 hr{
-    border: thick solid black;
+    border: thick solid purple;
+    text-align: center;
+    width: 75%;
 }
 
-.frontPage{
-    width: 1024px;
-    margin: auto;
-    border: thick solid black;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    text-align: right;
-    background-color: #B39DDB;
-}
-
-.headingBar{
-    background-color: #DBA29D;
-    width: 100%;
+.headerBar{
+    background-color: black;
+    flex: 10%;
+    height: 100%;
     margin: 0px;
-    padding-bottom: 5px;
-    padding-top: 5px;
-    border-bottom: thick solid black;
+    text-align: center;
+    font-family: XBex;
+    font-size: large;
 }
 
-.projectSelection{
-    margin: auto;
-    margin: 15px;
-    border: thick solid black;
-    border-radius: 10px;
+.headerBar p:hover{
+    animation-name: navigationHover;
+    animation-duration: 0.2s;
+    animation-fill-mode: forwards;
 }
 
-#myTime{
-    /*Align text to the right*/
-    text-align: right;
-    margin: 10px;
-    font-weight: bold;
+.bodyBar{
+    background-color: rgb(25, 25, 25);
+    flex: 90%;
+    font-size: large;
+    margin: 0px;
 }
 
-#languageSelect{
-    margin-left: 5px;
+.bodyBar h1{
+    text-align: center;
+    font-family: Xbex;
 }
 
-#projectsText, #contactText{
-    text-align: left;
+.bodyBar p{
+    margin: 50px;
+    margin-top: 20px;
 }
