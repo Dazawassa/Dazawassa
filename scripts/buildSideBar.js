@@ -5,8 +5,7 @@ headerBar.classList.add('headerBar');
 // Array of text values
 let sideBarLinks = {
     "Home": "index.html",
-    "Tools": "tools.html",
-    "Mods": "mods.html",
+    "Projects": "projects.html",
     "Contact": "contact.html",
     "Support": "https://ko-fi.com/dazawassa"
   };
